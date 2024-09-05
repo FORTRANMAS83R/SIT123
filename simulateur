@@ -1,0 +1,5 @@
+#!/bin/sh
+
+./cleanAll
+./compile
+cd bin && java src/simulateur/Simulateur "$@"
