@@ -1,12 +1,13 @@
 package src.simulateur;
 import src.destinations.Destination;
 import src.destinations.DestinationFinale;
-import src.destinations.sources.Source;
-import src.destinations.sources.SourceAleatoire;
-import src.destinations.sources.SourceFixe;
 import src.information.Information;
+import src.sources.Source;
+import src.sources.SourceAleatoire;
+import src.sources.SourceFixe;
 import src.transmetteurs.Transmetteur;
 import src.transmetteurs.TransmetteurParfait;
+import src.visualisations.SondeLogique;
 
 
 /** La classe Simulateur permet de construire et simuler une chaîne de
@@ -64,8 +65,10 @@ public class Simulateur {
         source = messageAleatoire ?  new SourceAleatoire(nbBitsMess, seed):  new SourceFixe(messageString);
         transmetteurLogique = new TransmetteurParfait<Boolean>();
         source.connecter(transmetteurLogique);
+        source.connecter(new SondeLogique("Entrée", 720));
         destination = new DestinationFinale<Boolean>();
         transmetteurLogique.connecter(destination);
+        transmetteurLogique.connecter(new SondeLogique("Sortie", 720));
 
     }
    
@@ -163,7 +166,7 @@ public class Simulateur {
                 nbBitEronnes ++; 
             }
         }
-        return nbBitEronnes/nbBitsMess; 
+        return (float)nbBitEronnes/(float)nbBitsMess; 
     }
    
    

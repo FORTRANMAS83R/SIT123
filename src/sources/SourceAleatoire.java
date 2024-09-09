@@ -1,4 +1,4 @@
-package src.destinations.sources;
+package src.sources;
 import java.util.Random;
 
 import src.information.Information;

@@ -1,4 +1,4 @@
-package src.destinations.sources;
+package src.sources;
 
 import src.destinations.DestinationInterface;
 import src.information.*;
