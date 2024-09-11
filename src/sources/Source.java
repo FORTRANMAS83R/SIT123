@@ -44,6 +44,12 @@ public  abstract class Source <T> implements  SourceInterface <T> {
     public Information <T>  getInformationEmise() {
 	return this.informationEmise;
     }
+
+    public LinkedList <DestinationInterface <T>> getDestinationsConnectees() {
+        return this.destinationsConnectees;
+    }
+
+    public Information <T>  getInformationGeneree() { return this.informationGeneree; }
    
     /**
      * connecte une destination à la source
