@@ -65,11 +65,12 @@ public class Simulateur {
         source = messageAleatoire ?  new SourceAleatoire(nbBitsMess, seed):  new SourceFixe(messageString);
         transmetteurLogique = new TransmetteurParfait<Boolean>();
         source.connecter(transmetteurLogique);
-        source.connecter(new SondeLogique("Entrée", 720));
+        if(affichage)
+            source.connecter(new SondeLogique("Entrée", 720));
         destination = new DestinationFinale<Boolean>();
         transmetteurLogique.connecter(destination);
-        transmetteurLogique.connecter(new SondeLogique("Sortie", 720));
-
+        if(affichage)
+            transmetteurLogique.connecter(new SondeLogique("Sortie", 720));
     }
    
    

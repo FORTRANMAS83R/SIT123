@@ -1,6 +1,5 @@
 #!/bin/sh
-# TO DO: lES tests
 
-echo running test 1
-sleep 3s
-echo test 1 done !
+./simulateur -mess 30
+
+./simulateur -mess 010101010101
