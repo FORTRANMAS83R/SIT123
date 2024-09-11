@@ -147,7 +147,6 @@ public class Simulateur {
      */ 
     public void execute() throws Exception {      
       	source.emettre();
-        System.out.println(destination.getInformationRecue());
     }
    
    	   	

@@ -13,6 +13,5 @@ public class SourceAleatoire extends Source<Boolean> {
         for (int i = 0; i<nbBitsMess; i++){
             informationGeneree.add(rdm.nextBoolean());
         }
-        System.out.println(informationGeneree);
     }
 }

@@ -1,4 +1,4 @@
 #!/bin/sh
 
-javac -d ./bin src/simulateur/Simulateur.java 
+cd src && javac -d ../bin simulateur/Simulateur.java 
 

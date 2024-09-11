@@ -2,4 +2,4 @@
 
 ./cleanAll
 ./compile
-cd bin && java src/simulateur/Simulateur "$@"
+cd bin && java simulateur/Simulateur "$@"

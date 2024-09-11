@@ -11,7 +11,6 @@ public class SourceFixe extends Source<Boolean> {
             if (message.charAt(i)=='0') informationGeneree.add(false); 
             else if (message.charAt(i)=='1') informationGeneree.add(true);  
         }
-
     }
     
 }
