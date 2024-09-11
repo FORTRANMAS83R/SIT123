@@ -48,7 +48,7 @@ public class SourceTest {
 	}
 
 	@Test
-	public void testConstructorSourceFixe() throws InformationNonConformeException {
+	public void testConstructorSourceFixe() {
 		String message = "0101010101";
 		Source<Boolean> src = new SourceFixe(message);
 		Boolean current;
@@ -68,7 +68,7 @@ public class SourceTest {
 	}
 
 	@Test
-	public void testConnecterSourceFixe() throws InformationNonConformeException {
+	public void testConnecterSourceFixe() {
 		String message = "0101010101";
 		Source<Boolean> src = new SourceFixe(message);
 		src.connecter(this.mockDestinationFinale);
