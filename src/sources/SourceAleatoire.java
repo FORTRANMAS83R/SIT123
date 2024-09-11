@@ -1,7 +1,7 @@
-package src.sources;
+package sources;
 import java.util.Random;
 
-import src.information.Information;
+import information.Information;
 
 
 

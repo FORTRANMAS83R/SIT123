@@ -1,7 +1,7 @@
-package src.sources;
+package sources;
 
-import src.destinations.DestinationInterface;
-import src.information.*;
+import destinations.DestinationInterface;
+import information.*;
 
 import java.util.*;
 

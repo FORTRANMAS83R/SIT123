@@ -1,4 +1,4 @@
 /**
  * Le package principal.
  */
-package src.simulateur;
+package simulateur;

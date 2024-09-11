@@ -1,6 +1,6 @@
-package src.destinations;
+package destinations;
 
-import src.information.*;
+import information.*;
 
 
 /** 

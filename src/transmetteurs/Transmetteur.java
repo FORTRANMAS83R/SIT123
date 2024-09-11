@@ -1,8 +1,8 @@
-package src.transmetteurs;
+package transmetteurs;
 
-import src.destinations.*;
-import src.information.*;
-import src.sources.*;
+import destinations.*;
+import information.*;
+import sources.*;
 
 import java.util.*;
 

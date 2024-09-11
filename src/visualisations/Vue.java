@@ -1,4 +1,4 @@
-package src.visualisations;
+package visualisations;
 	
 /** 
  * @author B. Prou

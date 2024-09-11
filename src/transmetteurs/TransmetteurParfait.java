@@ -1,8 +1,8 @@
-package src.transmetteurs;
+package transmetteurs;
 
-import src.destinations.DestinationInterface;
-import src.information.Information;
-import src.information.InformationNonConformeException;
+import destinations.DestinationInterface;
+import information.Information;
+import information.InformationNonConformeException;
 
 public class TransmetteurParfait<R> extends Transmetteur<R,R> {
     public TransmetteurParfait(){

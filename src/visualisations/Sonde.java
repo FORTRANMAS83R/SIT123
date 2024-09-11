@@ -1,7 +1,7 @@
-package src.visualisations;
+package visualisations;
 	
-import src.destinations.Destination;
-import src.information.Information;
+import destinations.Destination;
+import information.Information;
 
 /** 
  * Classe Abstraite d'un composant destination réalisant un affichage

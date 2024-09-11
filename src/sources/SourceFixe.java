@@ -1,6 +1,6 @@
-package src.sources;
+package sources;
 
-import src.information.Information;
+import information.Information;
 
 public class SourceFixe extends Source<Boolean> {
 

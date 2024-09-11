@@ -1,7 +1,7 @@
-package src.sources;
+package sources;
 
-import src.destinations.DestinationInterface;
-import src.information.*;
+import destinations.DestinationInterface;
+import information.*;
 
 /** 
  * Interface d'un composant ayant le comportement d'une source

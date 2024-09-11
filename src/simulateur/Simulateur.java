@@ -1,13 +1,13 @@
-package src.simulateur;
-import src.destinations.Destination;
-import src.destinations.DestinationFinale;
-import src.information.Information;
-import src.sources.Source;
-import src.sources.SourceAleatoire;
-import src.sources.SourceFixe;
-import src.transmetteurs.Transmetteur;
-import src.transmetteurs.TransmetteurParfait;
-import src.visualisations.SondeLogique;
+package simulateur;
+import destinations.Destination;
+import destinations.DestinationFinale;
+import information.Information;
+import sources.Source;
+import sources.SourceAleatoire;
+import sources.SourceFixe;
+import transmetteurs.Transmetteur;
+import transmetteurs.TransmetteurParfait;
+import visualisations.SondeLogique;
 
 
 /** La classe Simulateur permet de construire et simuler une chaîne de

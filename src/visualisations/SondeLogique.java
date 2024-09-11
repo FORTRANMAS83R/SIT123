@@ -1,6 +1,6 @@
-package src.visualisations;
+package visualisations;
 	
-import src.information.Information;
+import information.Information;
 
 /** 
  * Classe réalisant l'affichage d'information composée d'éléments

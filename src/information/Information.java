@@ -1,4 +1,4 @@
-package src.information;
+package information;
 
 import java.util.*;
 
